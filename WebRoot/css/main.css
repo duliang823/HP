@@ -1,0 +1,153 @@
+body{
+	width:1360px;
+	height:760px;
+	border: black;
+	
+	background:url("../background/bk4.png");
+	background-repeat: no-repeat;
+	 
+}
+
+#part1{
+	margin-top:10px;
+	margin-left:10px;
+	height:362px;
+	width:87%;	
+	border:dotted;
+	border-color: white;
+	font-size: 25px;
+	line-height: 70px;
+	
+}
+#part2{
+	margin-top:10px;
+	margin-left:10px;
+	height:362px;
+	width:87%;	
+	border:dotted;
+	border-color: white;
+	font-size: 25px;
+	line-height: 70px;
+}
+#part3{
+	position:absolute;
+	top:150px;
+	left:1220px;
+	height:60%;
+	width:3%;	
+	color:white;
+	font-size: 30px;
+}
+
+#room1{
+	margin-top:100px;
+	width:25px;
+	height:160px;
+	font-size: 25px;
+	border:dotted;
+	line-height: 30px;
+	color:white;
+}
+#room2{
+	margin-top:100px;
+	width:25px;
+	height:160px;
+	font-size: 25px;
+	border:dotted;
+	line-height: 30px;
+	color:white;
+}
+#videoControl{
+	width:0px;
+	height:0px;
+}
+#video1{
+	position:absolute;
+	top:20px;
+	left:58px;
+	width:640px;
+	height:350px;
+	border:dotted;
+	border-color: white;
+	background: gray;
+
+}
+#img1{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#img2{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#video2{
+	position:absolute;
+	top:400px;
+	left:58px;
+	width:640px;
+	height:350px;
+	border:dotted;
+	border-color: white;
+	background: gray;
+}
+#video1_control{
+	position:absolute;
+	top:20px;
+	left:700px;
+	width:60px;
+	height:350px;
+	border:dotted;
+	border-color: white;
+	/*background: gray;*/
+
+}
+.btn1{
+	width:90%;
+	height:30px;
+	margin-top: 25px;
+}
+#data1{
+	position:absolute;
+	top:20px;
+	left:770px;
+	width:200px;
+	height:350px;
+	border:dotted;
+	border-color: white;
+	color:white;
+}
+#data2{
+	position:absolute;
+	top:20px;
+	left:980px;
+	width:200px;
+	height:350px;
+	border:dotted;
+	border-color: white;
+	color:white;
+}
+#data3{
+	position:absolute;
+	top:400px;
+	left:770px;
+	width:200px;
+	height:350px;
+	border:dotted;
+	border-color: white;
+	color:white;
+}
+input{
+	width:100px;
+	height:35px;
+	font-size: 25px;
+	line-height: 35px;
+	
+}
+.air{
+	width:50px;
+	height:35px;
+	font-size: 25px;
+	line-height: 35px;
+}

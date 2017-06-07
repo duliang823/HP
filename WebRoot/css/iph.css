@@ -1,0 +1,199 @@
+body{
+	
+	position: absolute;
+	text-align: center;
+	/*background: blue;
+*/}
+#main{
+	width:940px;
+	height:2600px;
+	position:absolute;
+	left:10px;
+	background: url("../img/bk4.png");
+	
+	/*background:#2F4F4F;*/
+	background-repeat:repeat-y;	
+		
+}
+#cqupt{
+	position: absolute;
+	margin-left: -395px;
+	margin-top: -15px;
+}
+#main-title{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	color:white;
+	letter-spacing:10px;
+	text-shadow:3px 3px 0 rgba(96,96,100,0.8);
+}
+#main-title h1{
+	font-size:35px;
+}
+#main-video{
+	width:640px;
+	height:480px;
+	position:absolute;
+	left:130px;
+	top:2020px;
+	border-width: 20px;
+	border-style:outset;
+	
+	
+}
+#other-videos{
+	width:640px;
+	height:100px;
+	size:40px;
+	color:white;
+	position:absolute;
+	top:1900px;
+	left:150px;
+	border-color: white;
+	border-style: outset;
+	letter-spacing:20px;
+	text-align: center;
+	
+}
+#other-videos_bt{
+	width:640px;
+	height:100px;
+	size:40px;
+	color:white;
+	position:absolute;
+	top:17800px;
+	left:150px;
+	border-color: white;
+	border-style: outset;
+	letter-spacing:20px;
+	text-align: center;
+	
+}
+a{
+	color:white;
+}
+a:hover{
+	background-color:green;
+	color:red;
+}
+#table{
+	position:absolute;
+	width:680px;
+	left:130px;
+	top:200px;
+	color:white;
+	font-size:28px;
+	text-align:center;
+	border-style: outset;
+}
+
+tr{
+	height:60px;	
+	border-style: outset;
+	border: thick;	
+}
+
+td{
+	width: 100px;
+	border-style: outset;
+}
+#tr1,#tr3,#tr5,#tr2{
+	height:60px;
+	width: 100px;
+	border: thick;
+	background:#2F4F4F;
+}
+#tr2,#tr4{
+	background: #5f4f4f;
+}
+#tr5{
+	height:120px;
+}
+.Btn{
+	height:50px;
+	width: 50px;
+   -moz-border-radius: 50px;                /* Firefox */ 
+    -webkit-border-radius: 50px;             /* Safari and Chrome*/ 
+    border-radius: 50px;                     /*Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3*/ 
+ 
+    -moz-box-shadow: 10px 10px 20px #000;    /* Firefox */
+    -webkit-box-shadow: 10px 10px 20px #000; /* Safari and Chrome */
+    box-shadow: 10px 10px 20px #000;         /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */
+ 
+    position:relative;
+	behavior: url(http://www.zhangxinxu.com/study/down/ie-css3.htc); 
+	z-index:2;
+	background:green;
+	color:white;
+}
+/*****************************ÇúÏß²¿·ÖDIV********************************/
+#temperature{
+	position: absolute;
+	width:680px;
+	height:360px;
+	top:770px;
+	left:130px;
+	border-width: 5px;
+	border-style:outset;
+}
+#humidity{
+	position: absolute;
+	width:680px;
+	height:360px;
+	top:1170px;
+	left:130px;
+	border-width: 5px;
+	border-style:outset;
+}
+#smog{
+	position: absolute;
+	width:680px;
+	height:360px;
+	top:1560px;
+	left:130px;
+	border-width: 5px;
+	border-style:outset;
+}
+#dataline{
+	width: 100%;
+	height: 50px;
+	background: red;
+	position: absolute;
+	top:700px;
+	text-align: center;
+	color:white;
+	letter-spacing:18px;
+	font-size: 28px;
+	line-height: 50px;
+}
+#tableline{
+	width: 100%;
+	height: 50px;
+	background: red;
+	position: absolute;
+	top:120px;
+	text-align: center;
+	color:white;
+	letter-spacing:18px;
+	font-size: 28px;
+	line-height: 50px;
+}
+#videoline{
+	width: 100%;
+	height: 50px;
+	background: red;
+	position: absolute;
+	top:1950px;
+	text-align: center;
+	color:white;
+	letter-spacing:18px;
+	font-size: 28px;
+	line-height: 50px;
+}
+#ov{
+	position: absolute;
+	bottom: 30px;
+	text-align: center;
+	left:45%;
+}

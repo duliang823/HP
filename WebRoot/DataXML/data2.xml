@@ -1,0 +1,19 @@
+<type>
+	<!-- 一组传感器的值 -->
+	<data-one>19</data-one>
+	<data-one>68.5</data-one>
+	<data-one>0.5</data-one>
+	<data-one>好</data-one>
+	<!-- 二组传感器的值 -->
+	<data-two>23</data-two>
+	<data-two>77.2</data-two>
+	<data-two>0.4</data-two>
+	<data-two>好</data-two>
+	<!-- 三组传感器的值 -->
+	<data-three>28</data-three>
+	<data-three>77.9</data-three>
+	<data-three>0.65</data-three>
+	<data-three>良</data-three>
+	<!-- 视频图片地址 -->
+	<dress>http://192.168.1.101:81/tmpfs/auto.jpg</dress>
+</type>

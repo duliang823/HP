@@ -1,0 +1,355 @@
+#main{
+	width:1680px;
+	height:1000px;
+	/*background: url("../img/bk4.png");
+	*/background-repeat:inherit;
+	position: absolute;	
+	background:#2F4F4F;
+	margin: auto;
+}
+#cqupt{
+	position: absolute;
+	margin-left: -488px;
+	margin-top: -15px;
+}
+#main-title{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	color:white;
+	letter-spacing:18px;
+	text-shadow:3px 3px 0 rgba(96,96,100,0.8);
+}
+#main-title h1{
+	font-size:35px;
+}
+#menu{
+	width:100%;
+	height:60px;
+	border-width: 3px;
+	/*border-top-style:outset;
+	border-bottom-style:outset;
+	*/border-bottom-color: white;
+	line-height: 60px;
+	font-size: 28px;
+	text-align: center;
+}
+#panel{
+	width:95%;
+	height:83%;
+	position:absolute;
+	top：110px;
+	left:40px;
+	border-width: 3px;
+	border-style:outset;
+	background:#2F4F4F;
+}
+
+#zks{
+	width:150px;
+	height:50px;
+	color:white;
+	background: #5f4f4f;
+	position:absolute;
+	top:80px;
+	left:-50px;
+	margin-left: 100px;
+	border-style:outset;
+	border-color:white;
+}
+
+#zks:hover,#cf:hover,#bgl:hover,#gykgs:hover,#bt:hover,#qsk:hover,#sy:hover,#zhbf:hover,#lscx:hover{
+	background:#fF4F4F;
+	color:yellow;
+}
+#cf{
+	width:150px;
+	height:50px;
+	background: #5f4f4f;
+	color:white;
+	position:absolute;
+	top:80px;
+	left:210px;
+	border-style:outset;
+	border-color:white;
+}
+#gykgs{
+	width:180px;
+	height:50px;
+	background: #5f4f4f;
+	color:white;
+	position:absolute;
+	top:80px;
+	left:370px;
+	border-style:outset;
+	border-color:white;
+}
+#bgl{
+	width:150px;
+	height:50px;
+	background: #5f4f4f;
+	color:white;
+	position:absolute;
+	top:80px;
+	left:560px;
+	border-style:outset;
+	border-color:white;
+}
+#qsk{
+	width:150px;
+	height:50px;
+	background: #5f4f4f;
+	color:white;
+	position:absolute;
+	top:80px;
+	left:720px;
+	border-style:outset;
+	border-color:white;
+}
+#bt{
+	width:160px;
+	height:50px;
+	background: #5f4f4f;
+	color:white;
+	position:absolute;
+	top:80px;
+	left:880px;
+	border-style:outset;
+	border-color:white;
+}
+#zhbf{
+	width:120px;
+	height:50px;
+	background:#2F3646;
+	color:white;
+	position:absolute;
+	top:80px;
+	left:1080px;
+	border-style:outset;
+	border-color:white;
+}
+#lscx{
+	width:120px;
+	height:50px;
+	background:#2F3646;
+	color:white;
+	position:absolute;
+	top:80px;
+	left:1200px;
+	border-style:outset;
+	border-color:white;
+}
+#temperature_zks{
+	width:40%;
+	height:30%;
+	color:white;
+	position:absolute;
+	right:40px;
+	top:10px;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;		
+	}
+#humidity_zks{
+	width:40%;
+	height:30%;
+	position:absolute;
+	right:40px;
+	top:35%;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;		
+	}
+#smog_zks{
+	width:40%;
+	height:30%;
+	color:white;
+	position:absolute;
+	right:40px;
+	bottom:10px;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;		
+	}
+#table_zks{
+	width:51%;
+	height:20%;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;
+	position:absolute;
+	left:60px;
+	top:70%;
+	text-align: center;
+	font-size:28px;
+}
+#table_gykgs{
+	width:51%;
+	height:24%;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;
+	position:absolute;
+	left:60px;
+	top:70%;
+	text-align: center;
+	font-size:20px;
+}
+#tab{
+	width:100%;
+	height:100%;
+	border-style:outset;
+	color:white;
+}
+#tab_gykgs{
+	width:100%;
+	height:70%;
+	border-style:outset;
+	color:white;
+}
+#tab_kq{
+	width:100%;
+	height:10%;
+	border-style:outset;
+	color:white;
+}
+.Btn{
+	height:40px;
+	width: 40px;
+   -moz-border-radius: 40px;                /* Firefox */ 
+    -webkit-border-radius: 40px;             /* Safari and Chrome*/ 
+    border-radius: 40px;                     /*Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3*/ 
+    -moz-box-shadow: 10px 10px 20px #000;    /* Firefox */
+    -webkit-box-shadow: 10px 10px 20px #000; /* Safari and Chrome */
+    box-shadow: 10px 10px 20px #000;         /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */
+ 
+    position:relative;
+	behavior: url(http://www.zhangxinxu.com/study/down/ie-css3.htc); 
+	z-index:2;
+	background:green;
+	color:white;
+}
+
+#video{
+	width:50%;
+	height:60%;
+	position:absolute;
+	left:60px;
+	top:10px;
+	border-width: 10px;
+	border-style:outset;
+}
+#fonder{
+	width:100%;
+	height:20px;
+	position:absolute;
+	bottom:-20px;
+	/* top:790px; */
+	
+	/*border-top-style:outset;
+	border-top-color:white;
+	*/border-width:3px;
+	text-align: center;
+	color:white;
+	
+}
+/*********厂房部分CSS****************/
+#smog_cf{
+	width:40%;
+	height:50%;
+	color:white;
+	position:absolute;
+	right:40px;
+	top:10px;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;	
+}
+#wait_cf{
+	width:490px;
+	height:280px;
+	color:white;
+	position:absolute;
+	left:800px;
+	top:330px;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;
+}
+/*********办公楼部分CSS****************/
+#video_bgl{
+	width:50%;
+	height:60%;
+	position:absolute;
+	left:360px;
+	top:20px;
+	border-width: 10px;
+	border-style:outset;
+}
+#table_bgl{
+	width:51%;
+	height:18%;
+	border-style:outset;
+	border-color:white;
+	border-width:3px;
+	position:absolute;
+	left:360px;
+	bottom:10%;
+	text-align: center;
+	font-size:28px;
+}
+/*********取水口部分CSS****************/
+#video_qsk{
+	width:60%;
+	height:70%;
+	position:absolute;
+	left:360px;
+	top:30px;
+	border-width: 10px;
+	border-style:outset;
+}
+
+/*********综合布防部分CSS****************/
+#table{
+	position:absolute;
+	top:50px;
+	left:325px;
+	color:white;
+	width:60%;
+	height:500px;
+	font-size:28px;
+	text-align:center;
+	border-style: outset;
+}
+
+tr{
+	height:100px;
+	border-style: outset;
+	border: thick;
+	
+}
+td{
+	width: 12%;
+	border-style: outset;
+}
+
+ #tr1,#tr3,#tr5{
+
+	border: thick; 
+	background:#2F3646;
+}
+#tr2,#tr4{
+	
+	background: #5f4f4f;
+}
+ /*#tr5{
+	height:75px; 
+}  */
+#tr1_hp{
+	background: #5f4f4f;
+	height: 50px;
+}
+#tr2_hp{
+	background:#2F3646;
+	height: 50px;
+}

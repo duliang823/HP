@@ -1,0 +1,27 @@
+<type>
+	<!-- 人体红外传感器的值 -->
+	<infrared-1>19</infrared-1>
+	<infrared-2>19</infrared-2>
+	<infrared-3>19</infrared-3>
+	<infrared-4>19</infrared-4>
+	<infrared-5>19</infrared-5>
+	<!--  玻璃破碎传感器的值 -->
+	<windowsBreak-1>23</windowsBreak-1>
+	<windowsBreak-2>23</windowsBreak-2>
+	<windowsBreak-3>23</windowsBreak-3>
+	<windowsBreak-4>23</windowsBreak-4>
+	<!-- 窗磁-门磁传感器的值 -->
+	<magnetic-1>28</magnetic-1>
+	<magnetic-2>28</magnetic-2>
+	<magnetic-3>28</magnetic-3>
+	<magnetic-4>28</magnetic-4>
+	<magnetic-5>28</magnetic-5>
+	<!-- 异味传感器的值 -->
+	<smell-1>28</smell-1>
+	<smell-2>28</smell-2>
+	<smell-3>28</smell-3>
+	<smell-4>28</smell-4>
+	<smell-5>28</smell-5>
+	<smell-6>28</smell-6>
+	
+</type>

@@ -1,0 +1,51 @@
+body{
+	
+	position: absolute;
+	text-align: center;
+	/*background: blue;
+*/}
+#main{
+	width:940px;
+	height:2600px;
+	position:absolute;
+	left:10px;
+	background: url("../img/bk4.png");
+	
+	/*background:#2F4F4F;*/
+	background-repeat:repeat-y;	
+		
+}
+#cqupt{
+	position: absolute;
+	margin-left: -388px;
+	margin-top: -15px;
+}
+#main-title{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	color:white;
+	letter-spacing:18px;
+	text-shadow:3px 3px 0 rgba(96,96,100,0.8);
+}
+#main-title h1{
+	font-size:35px;
+}
+
+#menu{
+	width:90%;
+	height:80px;
+	border-width: 5px;
+	border-style:outset;
+}
+.menu{
+	width:12%;
+	height:70px;
+	border-width:2px;
+	border-style:outset;
+	font-size: 30px;
+	line-height: 70px;
+}
+#gykgs{
+	font-size: 
+}
